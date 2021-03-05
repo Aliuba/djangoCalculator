@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if s %}
+    <h1>{{ numberOne }}+{{ numbertwo }}={{ s }}</h1>
+{%elif div%}
+    <h1>{{ numberOne }}/{{ numbertwo }}={{ div }}</h1>
+{%elif sub%}
+    <h1>{{ numberOne }}-{{ numbertwo }}={{ sub }}</h1>
+{%elif mult%}
+    <h1>{{ numberOne }}*{{ numbertwo }}={{ mult }}</h1>
+{% else %}
+    <h1>Wrong</h1>
+{% endif %}
+
+</body>
+</html>
